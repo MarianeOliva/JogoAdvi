@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joguinho de Adivinhação</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="JS/backend.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <h1>Jogo da Adivinhação</h1>
+        <form action="" onsubmit="event.preventDefault(); adivinharNumero()">
+            <p>Tente adivinhar um número entre 1 e 1000</p>
+            <br>
+            <label for="">Digite seu palpite:</label>
+            <input type="text" id="palpite"><br><br>
+            <input type="button" value="Tentar" onclick="adivinharNumero()">
+        </form>
+        <div id="escrever"></div>
+        <form action="">
+            <input type="button" value="Reiniciar" onclick="reiniciarJogo()">
+        </form>
+    </div>
+</body>
+
+</html>
