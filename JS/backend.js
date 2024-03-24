@@ -14,7 +14,7 @@ function adivinharNumero() {
   if (palpite == sorteio) {
       document.getElementById(
           "escrever"
-          ).innerHTML = `Parabéns, você acertou. \nForam: ${tentativa} tentativas e ${erro} entrada(s) com erro. `;
+          ).innerHTML = `Parabéns, você acertou. \nForam: ${tentativa} tentativa(s) e ${erro} entrada(s) com erro. `;
         }
         
         //Mensagem caso o número digitado seja maior que o sorteado
