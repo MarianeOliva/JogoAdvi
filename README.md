@@ -1,6 +1,6 @@
 Joguinho de Adivinhação.
 
-Este é um jogo de adivinhação implementado em JavaScript e HTML. Cuja a finalide está em o usuário tentar adivinhar um número aleatório de 1 e 1000.
+Este é um jogo de adivinhação implementado em JavaScript, HTML e CSS. Cuja a finalidade está em o usuário tentar adivinhar um número aleatório gerado pelo programa, de 1 a 1000.
 
 Descrição do código: 
 
@@ -14,5 +14,13 @@ A função adivinharNumero lê o palpite do usuário do campo de entrada e compa
  ° Se o palpite estiver a uma distância de 10 a 30 do número sorteado, uma mensagem aparece informando que o usuário está próximo do número.
  ° Se o palpite for maior que o número sorteado e menor ou igual a 1000, uma mensagem parece informando que o usuário está muito longe de acertar e que deve digitar um número menor.
  ° Se o palpite for menor que o número sorteado e menor ou igual a 1000, uma mensagem parece informando que o usuário está muito longe de acertar e que deve digitar um número maior.
+ ° O sistema faz a contagem de quantas tentativas o usuário fez enquanto joga, e mostra a cada entrada de dado. Para que ele acompanhe a quantidade de tentativas enquanto joga.
+
+O sistema também verifica se o dado digitado atende os parâmetros do jogo (número de 1 a 1000. Não permite entrada de texto). 
+Caso não atenda, uma mensagem de erro é mostrada e pede para o jogador digitar corretamente.
+
+obs. Não reinicia o jogo, permitindo que o usuário continue jogando normalmente.
+
+No final do jogo, junto com a mensagem de acerto, o sistema mostra quantos dados errados o usuário digitou enquanto jogava, junto com o total de tentativas.
 
 E para finalizar, há um botão de “Reiniciar” que, quando clicado, chama a função reiniciarJogo. Esta função gera um novo número aleatório, redefine o número de tentativas e erros para zero, limpa o campo de entrada e a mensagem exibida para o usuário. Permitindo que ele recomece o jogo do zero.
