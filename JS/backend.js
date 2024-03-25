@@ -3,8 +3,6 @@ let sorteio = Math.floor(Math.random() * 1000) + 1; //Cria um número de sorteio
 let tentativa = 0; //Variavel criada para verificar quantas tentativas o usuario fez
 let erro = 0; //Feita para verificar a quantidades de erros
 
-console.log(sorteio);
-
 // Aqui é a função utilizada para criar nosso jogo
 function adivinharNumero() {
   let palpite = document.getElementById("palpite").value;
