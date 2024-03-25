@@ -36,7 +36,7 @@ if (Math.abs(palpite - sorteio) >= 1 && Math.abs(palpite - sorteio) <= 10) {
     if (palpite > sorteio) {
       document.getElementById(
         "escrever"
-      ).innerHTML = `Quase, quase!! É número menor. \nTentativas: ${tentativa}`;
+      ).innerHTML = `Quase, AAAH!! É número menor. \nTentativas: ${tentativa}`;
     } else {
       document.getElementById(
         "escrever"
